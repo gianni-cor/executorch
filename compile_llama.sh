@@ -1,0 +1,1 @@
+python -m examples.models.llama.export_llama --checkpoint ../Llama-3.2-1B-Instruct-ET/consolidated.00.pth --model "llama3_2" --params ../Llama-3.2-1B-Instruct-ET/params.json -kv -d bf16 --output_name="llama3_2_1B.pte"
